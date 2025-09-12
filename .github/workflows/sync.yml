@@ -4,7 +4,7 @@ name: Sync Fork
 on:
   workflow_dispatch: # workflow_dispatch手动触发 push push时触发
   schedule:
-    - cron: '0 0 * * *' # 对应北京时间35 8-23/3,1 * * *
+    - cron: '0 0 * * *' # 对应北京时间8
 jobs:
   sync:
     runs-on: ubuntu-latest
